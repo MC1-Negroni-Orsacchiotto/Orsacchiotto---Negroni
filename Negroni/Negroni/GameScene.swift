@@ -14,6 +14,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var player:SKSpriteNode?
     var floor:SKSpriteNode?
 
+    //
+    
     
     let playerCategory:UInt32 = 0x1 << 0
     let groundCategory:UInt32 = 0x1 << 2
